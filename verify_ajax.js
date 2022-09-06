@@ -1,3 +1,4 @@
+// Submit button
 function postValue(){
 
     var username = $('#username').val();
@@ -17,7 +18,7 @@ function postValue(){
     
             $('#message').html(output);
             
-            
+            // Validate abc input
             if(output =="true"){
                 $('#message').html("<b>Verified</b>");
                   
